@@ -1,5 +1,7 @@
 package gabriel.com.academy.dto;
 
-public record AvaliacaoFisicaUpdateForm() {
+public record AvaliacaoFisicaUpdateForm(
+		double peso,
+		double altura) {
 
 }

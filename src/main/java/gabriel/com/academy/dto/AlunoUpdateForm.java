@@ -1,5 +1,10 @@
 package gabriel.com.academy.dto;
 
-public record AlunoUpdateForm() {
+import java.time.LocalDate;
+
+public record AlunoUpdateForm(
+		String nome,
+		String bairro,
+		LocalDate dataDeNascimento ) {
 
 }
