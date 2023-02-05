@@ -5,7 +5,6 @@ import java.util.List;
 import gabriel.com.academy.dto.AlunoForm;
 import gabriel.com.academy.dto.AlunoUpdateForm;
 import gabriel.com.academy.dto.AvaliacaoFisicaForm;
-import gabriel.com.academy.entity.AvaliacaoFisica;
 
 public interface IAlunoService {
 
