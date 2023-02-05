@@ -23,7 +23,7 @@ public class AvaliacaoFisica {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne(cascade  = CascadeType.ALL)
 	@JoinColumn(name="aluno_id")
 	private Aluno aluno;
 	private LocalDateTime dataDaAvaliacao= LocalDateTime.now();

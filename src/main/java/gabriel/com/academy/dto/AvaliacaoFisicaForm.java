@@ -26,4 +26,7 @@ public class AvaliacaoFisicaForm implements Serializable {
 		altura = avaliacao.getAltura();
 		
 	}
+	
+	
+	
 }

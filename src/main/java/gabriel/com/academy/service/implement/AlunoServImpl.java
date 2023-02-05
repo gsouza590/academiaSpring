@@ -6,7 +6,6 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
@@ -15,7 +14,6 @@ import gabriel.com.academy.dto.AlunoForm;
 import gabriel.com.academy.dto.AlunoUpdateForm;
 import gabriel.com.academy.dto.AvaliacaoFisicaForm;
 import gabriel.com.academy.entity.Aluno;
-import gabriel.com.academy.entity.AvaliacaoFisica;
 import gabriel.com.academy.infra.jackson.utils.JavaTimeUtils;
 import gabriel.com.academy.repository.AlunoRepository;
 import gabriel.com.academy.service.IAlunoService;
@@ -99,8 +97,5 @@ public class AlunoServImpl implements IAlunoService {
 		
 	}
 
-	public Aluno fromAlunoUpdateForm(AlunoUpdateForm form) {
-		return null;
-		
-	}
+	
 }

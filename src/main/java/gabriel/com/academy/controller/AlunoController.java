@@ -19,7 +19,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import gabriel.com.academy.dto.AlunoForm;
 import gabriel.com.academy.dto.AlunoUpdateForm;
 import gabriel.com.academy.dto.AvaliacaoFisicaForm;
-import gabriel.com.academy.entity.AvaliacaoFisica;
 import gabriel.com.academy.service.implement.AlunoServImpl;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
